@@ -14,3 +14,25 @@
  *= require_self
  */
  @import "bootstrap";
+
+ /* Universal styles */
+
+ body {
+ 	font-family: 'Lato', sans-serif;
+ 	background-color: #f9e8d4;
+ }
+
+ a {
+ 	color: darken(#e7e7e7, 70%);
+ }
+
+ .jumbotron {
+ 	text-align: center;
+ }
+
+ /* Navbar & Navigation styles */
+
+ .navbar {
+ 	font-family: 'Lato', sans-serif;
+ 	text-transform: uppercase;
+ }
